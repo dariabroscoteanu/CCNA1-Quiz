@@ -406,7 +406,7 @@ const questions = [
       },
     ],
     photograph:
-      "",
+      "https://itexamanswers.net/wp-content/uploads/2016/03/i275370v1n1_275370-2.png?ezimgfmt=rs:525x358/rscb2/ng:webp/ngcb2",
     explanation: "",
   },
   {
