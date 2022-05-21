@@ -997,7 +997,7 @@ const questions = [
       },
       {
         text: "delivery options",
-        correct: false,
+        correct: true,
       },
       {
         text: "end-device installation",
