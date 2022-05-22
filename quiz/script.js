@@ -1837,5 +1837,2000 @@ const questions = [
     ],
     photograph: "",
     explanation: "",
-  },
+  },{
+    question:
+      "What service is provided by POP3?",
+    answers: [
+      {
+        text: "Retrieves email from the server by downloading the email to the local mail application of the client.",
+        correct: true,
+      },
+      {
+        text: "An application that allows real-time chatting among remote users.",
+        correct: false,
+      },
+      {
+        text: "Allows remote access to network devices and servers.",
+        correct: false,
+      },
+      {
+        text: "Uses encryption to provide secure remote access to network devices and servers.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What two security solutions are most likely to be used only in a corporate environment? (Choose two.)",
+    answers: [
+      {
+        text: "antispyware", 
+        correct: false,
+      },
+      {
+        text: "virtual private networks",
+        correct: true,
+      },
+      {
+        text: "intrusion prevention systems",
+        correct: true,
+      },
+      {
+        text: "strong passwords",
+        correct: false,
+      },
+      {
+        text: "antivirus software",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What characteristic describes antivirus software?",
+      answers: [
+      {
+        text: "applications that protect end devices from becoming infected with malicious software",
+        correct: true,
+      },
+      {
+        text: "a network device that filters access and traffic coming into a network",
+        correct: false,
+      },
+      {
+        text: "a tunneling protocol that provides remote users with secure access into the network of an organization",
+        correct: false,
+      },
+      {
+        text: "software on a router that filters traffic based on IP addresses or applications",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What mechanism is used by a router to prevent a received IPv4 packet from traveling endlessly on a network?",
+      answers: [
+      {
+        text: "It checks the value of the TTL field and if it is 0, it discards the packet and sends a Destination Unreachable message to the source host.",
+        correct: false,
+      },
+      {
+        text: "It checks the value of the TTL field and if it is 100, it discards the packet and sends a Destination Unreachable message to the source host.",
+        correct: false,
+      },
+      {
+        text: "It decrements the value of the TTL field by 1 and if the result is 0, it discards the packet and sends a Time Exceeded message to the source host.",
+        correct: true,
+      },
+      {
+        text:"It increments the value of the TTL field by 1 and if the result is 100, it discards the packet and sends a Parameter Problem message to the source host.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "A client packet is received by a server. The packet has a destination port number of 69. What service is the client requesting?",
+      answers: [
+      {
+        text: "DNS",
+        correct: false,
+      },
+      {
+        text: "DHCP",
+        correct: false,
+      },
+      {
+        text: "TFTP",
+        correct: true,
+      },
+      {
+        text:"SMTP",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "An administrator defined a local user account with a secret password on router R1 for use with SSH. Which three additional steps are required to configure R1 to accept only encrypted SSH connections? (Choose three.)",
+      answers: [
+      {
+        text: "Configure DNS on the router.",
+        correct: false,
+      },
+      {
+        text: "Generate two-way pre-shared keys.",
+        correct: false,
+      },
+      {
+        text: "Configure the IP domain name on the router.",
+        correct: true,
+      },
+      {
+        text:"Generate the SSH keys.",
+        correct: true,
+      },
+      {
+        text:"Enable inbound vty SSH sessions."
+        ,correct: true,
+      },
+      {
+        text:"Enable inbound vty Telnet sessions.",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "Which two functions are performed at the MAC sublayer of the OSI Data Link Layer to facilitate Ethernet communication? (Choose two.)",
+      answers: [
+      {
+        text: "places information in the Ethernet frame that identifies which network layer protocol is being encapsulated by the frame",
+        correct: true,
+      },
+      {
+        text: "adds Ethernet control information to network protocol data",
+        correct: false,
+      },
+      {
+        text: "responsible for internal structure of Ethernet frame",
+        correct: false,
+      },
+      {
+        text:"enables IPv4 and IPv6 to utilize the same physical medium",
+        correct: false,
+      },
+      {
+        text:"implements trailer with frame check sequence for error detection",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What are the three parts of an IPv6 global unicast address? (Choose three.)",
+      answers: [
+      {
+        text: "subnet ID",
+        correct: true,
+      },
+      {
+        text: "subnet mask",
+        correct: false,
+      },
+      {
+        text: "broadcast address",
+        correct: false,
+      },
+      {
+        text:"global routing prefix",
+        correct: true,
+      },
+      {
+        text:"interface ID",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "A network administrator is designing the layout of a new wireless network. Which three areas of concern should be accounted for when building a wireless network? (Choose three.)",
+      answers: [
+      {
+        text: "extensive cabling",
+        correct: false,
+      },
+      {
+        text: "mobility options",
+        correct: false,
+      },
+      {
+        text: "packet collision",
+        correct: false,
+      },
+      {
+        text:"interference",
+        correct: true,
+      },
+      {
+        text:"security",
+        correct: true,
+      },
+      {
+        text:"coverage area",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: " The three areas of concern for wireless networks focus on the size of the coverage area, any nearby interference, and providing network security. Extensive cabling is not a concern for wireless networks, as a wireless network will require minimal cabling for providing wireless access to hosts. Mobility options are not a component of the areas of concern for wireless networks.",
+  }, {
+    question:
+      "A new network administrator has been asked to enter a banner message on a Cisco device. What is the fastest way a network administrator could test whether the banner is properly configured?",
+      answers: [
+      {
+        text: "Enter CTRL-Z at the privileged mode prompt.",
+        correct: false,
+      },
+      {
+        text: "Exit global configuration mode.",
+        correct: false,
+      },
+      {
+        text: "Power cycle the device.",
+        correct: false,
+      },
+      {
+        text:"Reboot the device.",
+        correct: false,
+      },
+      {
+        text:"Exit privileged EXEC mode and press Enter .",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What method is used to manage contention-based access on a wireless network?",
+      answers: [
+      {
+        text: "token passing",
+        correct: false,
+      },
+      {
+        text: "CSMA/CA",
+        correct: true,
+      },
+      {
+        text: "priority ordering",
+        correct: false,
+      },
+      {
+        text:"CSMA/CD",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What is a function of the data link layer?",
+      answers: [
+      {
+        text: "provides the formatting of data",
+        correct: false,
+      },
+      {
+        text: "provides end-to-end delivery of data between hosts",
+        correct: false,
+      },
+      {
+        text: "provides delivery of data between two applications",
+        correct: false,
+      },
+      {
+        text:"provides for the exchange of frames over a common local media",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What is the purpose of the TCP sliding window?",
+      answers: [
+      {
+        text: "to ensure that segments arrive in order at the destination",
+        correct: false,
+      },
+      {
+        text: "to end communication when data transmission is complete",
+        correct: false,
+      },
+      {
+        text: "to inform a source to retransmit data from a specific point forward",
+        correct: false,
+      },
+      {
+        text:"to request that a source decrease the rate at which it transmits data",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "The TCP sliding window allows a destination device to inform a source to slow down the rate of transmission. To do this, the destination device reduces the value contained in the window field of the segment. It is acknowledgment numbers that are used to specify retransmission from a specific point forward. It is sequence numbers that are used to ensure segments arrive in order. Finally, it is a FIN control bit that is used to end a communication session.",
+  }, {
+    question:
+      "What characteristic describes spyware?",
+      answers: [
+      {
+        text: "a network device that filters access and traffic coming into a network",
+        correct: false,
+      },
+      {
+        text: "an attack that slows or crashes a device or network service",
+        correct: false,
+      },
+      {
+        text: "the use of stolen credentials to access private data",
+        correct: false,
+      },
+      {
+        text:"software that is installed on a user device and collects information about the user",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "Which switching method drops frames that fail the FCS check?",
+      answers: [
+      {
+        text: "borderless switching",
+        correct: false,
+      },
+      {
+        text: "ingress port buffering",
+        correct: false,
+      },
+      {
+        text: "cut-through switching",
+        correct: false,
+      },
+      {
+        text:"store-and-forward switching",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "Which range of link-local addresses can be assigned to an IPv6-enabled interface?",
+      answers: [
+      {
+        text: "FEC0::/10",
+        correct: false,
+      },
+      {
+        text: "FDEE::/7",
+        correct: false,
+      },
+      {
+        text: "FF00::/8",
+        correct: false,
+      },
+      {
+        text:"FE80::/10",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "Link-local addresses are in the range of FE80::/10 to FEBF::/10. The original IPv6 specification defined site-local addresses and used the prefix range FEC0::/10, but these addresses were deprecated by the IETF in favor of unique local addresses. FDEE::/7 is a unique local address because it is in the range of FC00::/7 to FDFF::/7. IPv6 multicast addresses have the prefix FF00::/8.",
+  }, {
+    question:
+      "What service is provided by FTP?",
+      answers: [
+      {
+        text: "A basic set of rules for exchanging text, graphic images, sound, video, and other multimedia files on the web.",
+        correct: false,
+      },
+      {
+        text: "An application that allows real-time chatting among remote users.",
+        correct: false,
+      },
+      {
+        text: "Uses encryption to secure the exchange of text, graphic images, sound, and video on the web.",
+        correct: false,
+      },
+      {
+        text:"Allows for data transfers between a client and a file server.",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "A user is attempting to access http://www.cisco.com/ without success. Which two configuration values must be set on the host to allow this access? (Choose two.)",
+      answers: [
+      {
+        text: "DNS server",
+        correct: true,
+      },
+      {
+        text: "source port number",
+        correct: false,
+      },
+      {
+        text: "HTTP server",
+        correct: false,
+      },
+      {
+        text: "source MAC address",
+        correct: false,
+      },
+      {
+        text:"default gateway",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Which two statements accurately describe an advantage or a disadvantage when deploying NAT for IPv4 in a network? (Choose two.)",
+      answers: [
+      {
+        text: "NAT adds authentication capability to IPv4.",
+        correct: false,
+      },
+      {
+        text: "NAT introduces problems for some applications that require end-to-end connectivity.",
+        correct: true,
+      },
+      {
+        text: "NAT will impact negatively on switch performance.",
+        correct: false,
+      },
+      {
+        text: "NAT provides a solution to slow down the IPv4 address depletion.",
+        correct: true,
+      },
+      {
+        text:"NAT improves packet handling.",
+        correct: false,
+      },
+      {
+        text:"NAT causes routing tables to include more information.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "Network Address Translation (NAT) is a technology that is implemented within IPv4 networks. One application of NAT is to use private IP addresses inside a network and use NAT to share a few public IP addresses for many internal hosts. In this way it provides a solution to slow down the IPv4 address depletion. However, since NAT hides the actual IP addresses that are used by end devices, it may cause problems for some applications that require end-to-end connectivity."
+  }, {
+    question:
+      "What would be the interface ID of an IPv6 enabled interface with a MAC address of 1C-6F-65-C2-BD-F8 when the interface ID is generated by using the EUI-64 process?",
+      answers: [
+      {
+        text: "0C6F:65FF:FEC2:BDF8",
+        correct: false,
+      },
+      {
+        text: "1E6F:65FF:FEC2:BDF8",
+        correct: true,
+      },
+      {
+        text: "C16F:65FF:FEC2:BDF8",
+        correct: false,
+      },
+      {
+        text: "106F:65FF:FEC2:BDF8",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "To derive the EUI-64 interface ID by using the MAC address 1C-6F-65-C2-BD-F8, three steps are taken. Change the seventh bit of the MAC address from a binary 0 to a binary 1 which changes the hex C, into a hex E. Insert hex digits FFFE into the middle of the address. Rewrite the address in IPv6 format. The three steps, when complete, give the interface ID of 1E6F:65FF:FEC2:BDF8."
+  }, {
+    question:
+      "Refer to the exhibit. PC1 issues an ARP request because it needs to send a packet to PC2. In this scenario, what will happen next?",
+      answers: [
+      {
+        text: "SW1 will send an ARP reply with the SW1 Fa0/1 MAC address.​",
+        correct: false,
+      },
+      {
+        text: "PC2 will send an ARP reply with the PC2 MAC address.",
+         correct: true,
+      },
+      {
+        text: "SW1 will send an ARP reply with the PC2 MAC address.​",
+        correct: false,
+      },
+      {
+        text: "RT1 will send an ARP reply with the PC2 MAC address.​",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2016/03/i209824v1n1_209824.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: "When a network device wants to communicate with another device on the same network, it sends a broadcast ARP request. In this case, the request will contain the IP address of PC2. The destination device (PC2) sends an ARP reply with its MAC address."
+  }, {
+    question:
+      "What service is provided by BOOTP?",
+      answers: [
+      {
+        text: "Uses encryption to secure the exchange of text, graphic images, sound, and video on the web.",
+        correct: false,
+      },
+      {
+        text: "Legacy application that enables a diskless workstation to discover its own IP address and find a BOOTP server on the network.",
+        correct: true,
+      },
+      {
+        text: "Allows for data transfers between a client and a file server.",
+        correct: false,
+      },
+      {
+        text: "A basic set of rules for exchanging text, graphic images, sound, video, and other multimedia files on the web.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What characteristic describes adware?",
+      answers: [
+      {
+        text: "a network device that filters access and traffic coming into a network",
+        correct: false,
+      },
+      {
+        text: "software that is installed on a user device and collects information about the user",
+        correct: true,
+      },
+      {
+        text: "the use of stolen credentials to access private data",
+        correct: false,
+      },
+      {
+        text: "an attack that slows or crashes a device or network service",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "When a switch configuration includes a user-defined error threshold on a per-port basis, to which switching method will the switch revert when the error threshold is reached?",
+      answers: [
+      {
+        text: "cut-through",
+        correct: false,
+      },
+      {
+        text: "store-and-forward",
+        correct: true,
+      },
+      {
+        text: "fast-forward",
+        correct: false,
+      },
+      {
+        text: "fragment-free",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Match a statement to the related network model. (Not all options are used.)",
+      answers: [
+      {
+        text: "no dedicated server is required",
+        correct: true,
+      },
+      {
+        text: "client and server roles are set on a per request basis",
+        correct: true,
+      },
+      {
+        text: "peer-to-peer aplication",
+        correct: false,
+      },
+      {
+        text: "requires a specific user interface",
+        correct: true,
+      },
+      {
+        text: " a background service is required",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/2022-05-12_101113.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: "Peer-to-peer networks do not require the use of a dedicated server, and devices can assume both client and server roles simultaneously on a per request basis. Because they do not require formalized accounts or permissions, they are best used in limited situations. Peer-to-peer applications require a user interface and background service to be running, and can be used in more diverse situations."
+  }, {
+    question:
+      "What are two primary responsibilities of the Ethernet MAC sublayer? (Choose two.)",
+      answers: [
+      {
+        text: "error detection",
+        correct: false,
+      },
+      {
+        text: "accessing the media",
+        correct: true,
+      },
+      {
+        text: "frame delimiting",
+        correct: false,
+      },
+      {
+        text: "logical addressing",
+        correct: false,
+      },
+      {
+        text: "data encapsulation",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Match each type of frame field to its function. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/11.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "What is the subnet ID associated with the IPv6 address 2001:DA48:FC5:A4:3D1B::1/64?",
+      answers: [
+      {
+        text: "2001:DA48::/64​",
+        correct: false,
+      },
+      {
+        text: "2001:DA48:FC5::A4:/64​",
+        correct: false,
+      },
+      {
+        text: "2001:DA48:FC5:A4::/64​",
+        correct: true,
+      },
+      {
+        text: "2001::/64",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      " Match the firewall function to the type of threat protection it provides to the network. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/18.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: "Firewall products come packaged in various forms. These products use different techniques for determining what will be permitted or denied access to a network. They include the following: Packet filtering – Prevents or allows access based on IP or MAC addresses + Application filtering – Prevents or allows access by specific application types based on port numbers + URL filtering – Prevents or allows access to websites based on specific URLs or keywords + Stateful packet inspection (SPI) – Incoming packets must be legitimate responses to requests from internal hosts. Unsolicited packets are blocked unless permitted specifically. SPI can also include the capability to recognize and filter out specific types of attacks, such as denial of service (DoS)"
+  }, {
+    question:
+      "Users are reporting longer delays in authentication and in accessing network resources during certain time periods of the week. What kind of information should network engineers check to find out if this situation is part of a normal network behavior?",
+      answers: [
+      {
+        text: "syslog records and messages",
+        correct: false,
+      },
+      {
+        text: "debug output and packet captures",
+        correct: false,
+      },
+      {
+        text: "the network performance baseline",
+        correct: true,
+      },
+      {
+        text: "network configuration files",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "How does the service password-encryption command enhance password security on Cisco routers and switches?",
+      answers: [
+      {
+        text: "It requires encrypted passwords to be used when connecting remotely to a router or switch with Telnet.",
+        correct: false,
+      },
+      {
+        text: "It requires that a user type encrypted passwords to gain console access to a router or switch.",
+        correct: false,
+      },
+      {
+        text: "It encrypts passwords that are stored in router or switch configuration files.",
+        correct: true,
+      },
+      {
+        text: "It encrypts passwords as they are sent across the network.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "The service password-encryption command encrypts plaintext passwords in the configuration file so that they cannot be viewed by unauthorized users."
+  }, {
+    question:
+      "Which two statements are correct in a comparison of IPv4 and IPv6 packet headers? (Choose two.)",
+      answers: [
+      {
+        text: "The Source Address field name from IPv4 is kept in IPv6.",
+        correct: true,
+      },
+      {
+        text: "The Version field from IPv4 is not kept in IPv6.",
+        correct: false,
+      },
+      {
+        text: "The Destination Address field is new in IPv6.",
+        correct: false,
+      },
+      {
+        text: "The Header Checksum field name from IPv4 is kept in IPv6.",
+        correct: false,
+      },
+      {
+        text: "The Time-to-Live field from IPv4 has been replaced by the Hop Limit field in IPv6.",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "A network administrator wants to have the same network mask for all networks at a particular small site. The site has the following networks and number of devices: IP phones – 22 addresses PCs – 20 addresses needed Printers – 2 addresses needed Scanners – 2 addresses needed. The network administrator has deemed that 192.168.10.0/24 is to be the network used at this site. Which single subnet mask would make the most efficient use of the available addresses to use for the four subnetworks?",
+    answers: [
+      {
+        text: "255.255.255.192",
+        correct: false,
+      },
+      {
+        text: "255.255.255.252",
+        correct: false,
+      },
+      {
+        text: "255.255.255.240",
+        correct: false,
+      },
+      {
+        text: "255.255.255.248",
+        correct: false,
+      },
+      {
+        text: "255.255.255.0",
+        correct: false,
+      },
+      {
+        text: "255.255.255.224",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What characteristic describes identity theft?",
+      answers: [
+      {
+        text: "the use of stolen credentials to access private data",
+        correct: true,
+      },
+      {
+        text: "software on a router that filters traffic based on IP addresses or applications",
+        correct: false,
+      },
+      {
+        text: "software that identifies fast-spreading threats",
+        correct: false,
+      },
+      {
+        text: "a tunneling protocol that provides remote users with secure access into the network of an organization",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "A network administrator is adding a new LAN to a branch office. The new LAN must support 200 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+      answers: [
+      {
+        text: "255.255.255.0",
+         correct: true,
+      },
+      {
+        text: "255.255.255.240",
+        correct: false,
+      },
+      {
+        text: "255.255.255.248",
+        correct: false,
+      },
+      {
+        text: "255.255.255.224",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      " What are three commonly followed standards for constructing and installing cabling? (Choose three.)",
+      answers: [
+      {
+        text: "cable lengths",
+         correct: true,
+      },
+      {
+        text: "cost per meter (foot)",
+        correct: false,
+      },
+      {
+        text: "connector color",
+        correct: false,
+      },
+      {
+        text: "tensile strength of plastic insulator",
+        correct: false,
+      },
+      {
+        text: "pinouts",
+         correct: true,
+      },
+      {
+        text: "connector types",
+         correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      " Refer to the exhibit. What is wrong with the displayed termination?",
+      answers: [
+      {
+        text: "The untwisted length of each wire is too long.",
+        correct: true,
+      },
+      {
+        text: "The woven copper braid should not have been removed.",
+        correct: false,
+      },
+      {
+        text: "The wrong type of connector is being used.",
+        correct: false,
+      },
+      {
+        text: "The wires are too thick for the connector that is used.",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/i274300v1n1_209630-300x221-1.png?ezimgfmt=rs:235x173/rscb2/ng:webp/ngcb2",
+    explanation: "When a cable to an RJ-45 connector is terminated, it is important to ensure that the untwisted wires are not too long and that the flexible plastic sheath surrounding the wires is crimped down and not the bare wires. None of the colored wires should be visible from the bottom of the jack."
+  }, {
+    question:
+      "Match the characteristic to the category. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      }
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/38.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "A client packet is received by a server. The packet has a destination port number of 143. What service is the client requesting?",
+      answers: [
+      {
+        text: "IMAP",
+        correct: true,
+      },
+      {
+        text: "FTP",
+        correct: false,
+      },
+      {
+        text: "SSH",
+        correct: false,
+      },
+      {
+        text: "TELNET",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What are two characteristics shared by TCP and UDP? (Choose two.)",
+      answers: [
+      {
+        text: "default window size",
+        correct: false,
+      },
+      {
+        text: "connectionless communication",
+        correct: false,
+      },
+      {
+        text: "port numbering",
+        correct: true,
+      },
+      {
+        text: "3-way handshake",
+        correct: false,
+      },
+      {
+        text: "ability to to carry digitized voice",
+        correct: false,
+      },
+      {
+        text: "use of checksum",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "Both TCP and UDP use source and destination port numbers to distinguish different data streams and to forward the right data segments to the right applications. Error checking the header and data is done by both protocols by using a checksum calculation to determine the integrity of the data that is received. TCP is connection-oriented and uses a 3-way handshake to establish an initial connection. TCP also uses window to regulate the amount of traffic sent before receiving an acknowledgment. UDP is connectionless and is the best protocol for carry digitized VoIP signals."
+  }, {
+    question:
+      "Refer to the exhibit. Which two network addresses can be assigned to the network containing 10 hosts? Your answers should waste the fewest addresses, not reuse addresses that are already assigned, and stay within the 10.18.10.0/24 range of addresses. (Choose two.)",
+      answers: [
+      {
+        text: "10.18.10.200/28",
+        correct: false,
+      },
+      {
+        text: "10.18.10.240/27",
+        correct: false,
+      },
+      {
+        text: "10.18.10.208/28",
+        correct: true,
+      },
+      {
+        text: "10.18.10.200/27",
+        correct: false,
+      },
+      {
+        text: "10.18.10.224/27",
+        correct: false,
+      },
+      {
+        text: "10.18.10.224/28",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/i274518v1n1_247518.png?ezimgfmt=ng:webp/ngcb2",
+    explanation: "Addresses 10.18.10.0 through 10.18.10.63 are taken for the leftmost network. Addresses 192 through 199 are used by the center network. Because 4 host bits are needed to accommodate 10 hosts, a /28 mask is needed. 10.18.10.200/28 is not a valid network number. Two subnets that can be used are 10.18.10.208/28 and 10.18.10.224/28."
+  }, {
+    question:
+      " A client packet is received by a server. The packet has a destination port number of 21. What service is the client requesting?",
+      answers: [
+      {
+        text: "LDAP",
+        correct: false,
+      },
+      {
+        text: "FTP",
+        correct: true,
+      },
+      {
+        text: "SLP",
+        correct: false,
+      },
+      {
+        text: "SNMP",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What attribute of a NIC would place it at the data link layer of the OSI model?",
+      answers: [
+      {
+        text: "attached Ethernet cable",
+        correct: false,
+      },
+      {
+        text: "MAC address",
+        correct: true,
+      },
+      {
+        text: "IP address",
+        correct: false,
+      },
+      {
+        text: "RJ-45 port",
+        correct: false,
+      },
+      {
+        text: "TCP/IP protocol stack",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "A network administrator is adding a new LAN to a branch office. The new LAN must support 10 connected devices. What is the smallest network mask that the network administrator can use for the new network?",
+      answers: [
+      {
+        text: "255.255.255.192",
+        correct: false,
+      },
+      {
+        text: "255.255.255.240",
+        correct: true,
+      },
+      {
+        text: "255.255.255.248",
+        correct: false,
+      },
+      {
+        text: "255.255.255.224",
+         correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What technique is used with UTP cable to help protect against signal interference from crosstalk?",
+      answers: [
+      {
+        text: "wrapping a foil shield around the wire pairs",
+        correct: false,
+      },
+      {
+        text: "twisting the wires together into pairs",
+        correct: true,
+      },
+      {
+        text: "terminating the cable with special grounded connectors",
+        correct: false,
+      },
+      {
+        text: "encasing the cables within a flexible plastic sheath",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "To help prevent the effects of crosstalk, UTP cable wires are twisted together into pairs. Twisting the wires together causes the magnetic fields of each wire to cancel each other out."
+  }, {
+    question:
+      "Refer to the exhibit. The network administrator has assigned the LAN of LBMISS an address range of 192.168.10.0. This address range has been subnetted using a /29 prefix. In order to accommodate a new building, the technician has decided to use the fifth subnet for configuring the new network (subnet zero is the first subnet). By company policies, the router interface is always assigned the first usable host address and the workgroup server is given the last usable host address. Which configuration should be entered into the properties of the workgroup server to allow connectivity to the Internet?",
+      answers: [
+      {
+        text: "IP address: 192.168.10.65 subnet mask: 255.255.255.240, default gateway: 192.168.10.76",
+        correct: false,
+      },
+      {
+        text: "IP address: 192.168.10.38 subnet mask: 255.255.255.248, default gateway: 192.168.10.33",
+        correct: true,
+      },
+      {
+        text: "IP address: 192.168.10.38 subnet mask: 255.255.255.240, default gateway: 192.168.10.33",
+        correct: false,
+      },
+      {
+        text: "IP address: 192.168.10.41 subnet mask: 255.255.255.248, default gateway: 192.168.10.46",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2017/05/i209840v1n3_209840.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: "Using a /29 prefix to subnet 192.168.10.0 results in subnets that increment by 8: 192.168.10.0 (1), 192.168.10.8 (2), 192.168.10.16 (3), 192.168.10.24 (4), 192.168.10.32 (5)"
+  }, {
+    question:
+      "Refer to the exhibit. The switches are in their default configuration. Host A needs to communicate with host D, but host A does not have the MAC address for its default gateway. Which network hosts will receive the ARP request sent by host A?",
+      answers: [
+      {
+        text: "only host D",
+        correct: false,
+      },
+      {
+        text: "only router R1",
+        correct: false,
+      },
+      {
+        text: "only hosts B, C, and router R1",
+        correct: true,
+      },
+      {
+        text: "only hosts A, B, C, and D",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2016/03/i275353v1n1_275353.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: "Since host A does not have the MAC address of the default gateway in its ARP table, host A sends an ARP broadcast. The ARP broadcast would be sent to every device on the local network. Hosts B, C, and router R1 would receive the broadcast. Router R1 would not forward the message."
+  }, {
+    question:
+      "Match a statement to the related network model. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/2022-05-12_101113.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: "Peer-to-peer networks do not require the use of a dedicated server, and devices can assume both client and server roles simultaneously on a per request basis. Because they do not require formalized accounts or permissions, they are best used in limited situations. Peer-to-peer applications require a user interface and background service to be running, and can be used in more diverse situations.",
+  }, {
+    question:
+      "Refer to the exhibit. A network engineer has been given the network address of 192.168.99.0 and a subnet mask of 255.255.255.192 to subnet across the four networks shown. How many total host addresses are unused across all four subnets?",
+      answers: [
+      {
+        text: "88",
+        correct: false,
+      },
+      {
+        text: "72",
+        correct: false,
+      },
+      {
+        text: "200",
+        correct: true,
+      },
+      {
+        text: "154",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/06/i304957v1n1_209418-1591171569.7915.png?ezimgfmt=ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "A client packet is received by a server. The packet has a destination port number of 22. What service is the client requesting?",
+      answers: [
+      {
+        text: "SMB/CIFS",
+        correct: false,
+      },
+      {
+        text: "HTTPS",
+        correct: false,
+      },
+      {
+        text: "SSH",
+        correct: true,
+      },
+      {
+        text: "SLP",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What characteristic describes an IPS?",
+      answers: [
+      {
+        text: "a tunneling protocol that provides remote users with secure access into the network of an organization",
+        correct: false,
+      },
+      {
+        text: "software that identifies fast-spreading threats",
+        correct: false,
+      },
+      {
+        text: "a network device that filters access and traffic coming into a network",
+        correct: true,
+      },
+      {
+        text: "software on a router that filters traffic based on IP addresses or applications",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "IPS – An intrusion prevention system (IPS) monitors incoming and outgoing traffic looking for malware, network attack signatures, and more. If it recognizes a threat, it can immediately stop it."
+  }, {
+    question:
+      "What service is provided by DHCP?",
+      answers: [
+      {
+        text: "An application that allows real-time chatting among remote users.",
+        correct: false,
+      },
+      {
+        text: "Allows remote access to network devices and servers.",
+        correct: false,
+      },
+      {
+        text: "Dynamically assigns IP addresses to end and intermediary devices.",
+        correct: true,
+      },
+      {
+        text: "Uses encryption to provide secure remote access to network devices and servers.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Match the header field with the appropriate layer of the OSI model. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/2020-03-26_173114.png?ezimgfmt=ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "Refer to the exhibit. The switches have a default configuration. Host A needs to communicate with host D, but host A does not have the MAC address for the default gateway. Which network devices will receive the ARP request sent by host A?",
+      answers: [
+      {
+        text: "An application that allows real-time chatting among remote users.",
+        correct: false,
+      },
+      {
+        text: "only hosts A, B, C, and D",
+        correct: false,
+      },
+      {
+        text: "only hosts B, C, and router R1",
+        correct: true,
+      },
+      {
+        text: "only host D",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/12/i360201v3n1_275353-1608482322.6606.png?ezimgfmt=ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "Which wireless technology has low-power and low-data rate requirements making it popular in IoT environments?",
+      answers: [
+      {
+        text: "Bluetooth",
+        correct: false,
+      },
+      {
+        text: "WiMAX",
+        correct: false,
+      },
+      {
+        text: "Zigbee",
+        correct: true,
+      },
+      {
+        text: "Wi-Fi",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "Zigbee is a specification used for low-data rate, low-power communications. It is intended for applications that require short-range, low data-rates and long battery life. Zigbee is typically used for industrial and Internet of Things (IoT) environments such as wireless light switches and medical device data collection."
+  }, {
+    question:
+      "What two ICMPv6 message types must be permitted through IPv6 access control lists to allow resolution of Layer 3 addresses to Layer 2 MAC addresses? (Choose two.)",
+      answers: [
+      {
+        text: "neighbor solicitations",
+        correct: true,
+      },
+      {
+        text: "echo requests",
+        correct: false,
+      },
+      {
+        text: "neighbor advertisements",
+        correct: true,
+      },
+      {
+        text: "router solicitations",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "A client is using SLAAC to obtain an IPv6 address for its interface. After an address has been generated and applied to the interface, what must the client do before it can begin to use this IPv6 address?",
+       answers: [
+      {
+        text: "It must send a DHCPv6 INFORMATION-REQUEST message to request the address of the DNS server.",
+        correct: false,
+      },
+      {
+        text: "It must send a DHCPv6 REQUEST message to the DHCPv6 server to request permission to use this address.",
+        correct: false,
+      },
+      {
+        text: "It must send an ICMPv6 Neighbor Solicitation message to ensure that the address is not already in use on the network.",
+        correct: true,
+      },
+      {
+        text: "It must send an ICMPv6 Router Solicitation message to determine what default gateway it should use.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Two pings were issued from a host on a local network. The first ping was issued to the IP address of the default gateway of the host and it failed. The second ping was issued to the IP address of a host outside the local network and it was successful. What is a possible cause for the failed ping?",
+      answers: [
+      {
+        text: "The default gateway is not operational.",
+        correct: false,
+      },
+      {
+        text: "The default gateway device is configured with the wrong IP address.",
+        correct: false,
+      },
+      {
+        text: "Security rules are applied to the default gateway device, preventing it from processing ping requests.",
+        correct: true,
+      },
+      {
+        text: "The TCP/IP stack on the default gateway is not working properly.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "An organization is assigned an IPv6 address block of 2001:db8:0:ca00::/56. How many subnets can be created without using bits in the interface ID space?",
+      answers: [
+      {
+        text: "512",
+        correct: false,
+      },
+      {
+        text: "1024",
+        correct: false,
+      },
+      {
+        text: "256",
+        correct: true,
+      },
+      {
+        text: "4096",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What subnet mask is needed if an IPv4 network has 40 devices that need IP addresses and address space is not to be wasted?",
+      answers: [
+      {
+        text: "255.255.255.0",
+        correct: false,
+      },
+      {
+        text: "255.255.255.240",
+        correct: false,
+      },
+      {
+        text: "255.255.255.192",
+        correct: true,
+      },
+      {
+        text: "255.255.255.224",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Refer to the exhibit. If host A sends an IP packet to host B, what will the destination address be in the frame when it leaves host A?",
+      answers: [
+      {
+        text: "172.168.10.65",
+        correct: false,
+      },
+      {
+        text: "172.168.10.99",
+        correct: false,
+      },
+      {
+        text: "BB:BB:BB:BB:BB:BB",
+        correct: true,
+      },
+      {
+        text: "DD:DD:DD:DD:DD:DD",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/i274590v1n1_274590.png?ezimgfmt=rs:453x228/rscb2/ng:webp/ngcb2",
+    explanation: "When a host sends information to a distant network, the Layer 2 frame header will contain a source and destination MAC address. The source address will be the originating host device. The destination address will be the router interface that connects to the same network. In the case of host A sending information to host B, the source address is AA:AA:AA:AA:AA:AA and the destination address is the MAC address assigned to the R2 Ethernet interface, BB:BB:BB:BB:BB:BB."
+  }, {
+    question:
+      "What is a benefit of using cloud computing in networking?",
+      answers: [
+      {
+        text: "Technology is integrated into every-day appliances allowing them to interconnect with other devices, making them more ‘smart’ or automated.",
+        correct: false,
+      },
+      {
+        text: "End users have the freedom to use personal tools to access information and communicate across a business network.",
+        correct: false,
+      },
+      {
+        text: "Network capabilities are extended without requiring investment in new infrastructure, personnel, or software.",
+        correct: true,
+      },
+      {
+        text: "Home networking uses existing electrical wiring to connect devices to the network wherever there is an electrical outlet, saving the cost of installing data cables.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "Cloud computing extends IT’s capabilities without requiring investment in new infrastructure, training new personnel, or licensing new software. These services are available on-demand and delivered economically to any device anywhere in the world without compromising security or function. BYOD is about end users having the freedom to use personal tools to access information and communicate across a business or campus network. Smart home technology is integrated into every-day appliances allowing them to interconnect with other devices, making them more ‘smart’ or automated. Powerline networking is a trend for home networking that uses existing electrical wiring to connect devices to the network wherever there is an electrical outlet, saving the cost of installing data cables.",
+  }, {
+    question:
+      "Which two statements are correct about MAC and IP addresses during data transmission if NAT is not involved? (Choose two.)",
+      answers: [
+      {
+        text: "Destination IP addresses in a packet header remain constant along the entire path to a target host",
+        correct: true,
+      },
+      {
+        text: "Every time a frame is encapsulated with a new destination MAC address, a new destination IP address is needed.",
+        correct: false,
+      },
+      {
+        text: "Destination and source MAC addresses have local significance and change every time a frame goes from one LAN to another.",
+        correct: true,
+      },
+      {
+        text: "A packet that has crossed four routers has changed the destination IP address four times",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "What is one main characteristic of the data link layer?",
+      answers: [
+      {
+        text: "It converts a stream of data bits into a predefined code.",
+        correct: false,
+      },
+      {
+        text: "It generates the electrical or optical signals that represent the 1 and 0 on the media.",
+        correct: false,
+      },
+      {
+        text: "It shields the upper layer protocol from being aware of the physical medium to be used in the communication.",
+        correct: true,
+      },
+      {
+        text: "It accepts Layer 3 packets and decides the path by which to forward the packet to a remote network.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      " What are three characteristics of the CSMA/CD process? (Choose three.)",
+       answers: [
+      {
+        text: "A device listens and waits until the media is not busy before transmitting.",
+        correct: true,
+      },
+      {
+        text: "The device with the electronic token is the only one that can transmit after a collision.",
+        correct: false,
+      },
+      {
+        text: "After detecting a collision, hosts can attempt to resume transmission after a random time delay has expired.",
+        correct: true,
+      },
+      {
+        text: "A jam signal indicates that the collision has cleared and the media is not busy.",
+        correct: false,
+      },
+      {
+        text: "All of the devices on a segment see data that passes on the network medium.",
+        correct: false,
+      },
+      {
+        text: "Devices can be configured with a higher transmission priority.",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "The Carrier Sense Multiple Access/Collision Detection (CSMA/CD) process is a contention-based media access control mechanism used on shared media access networks, such as Ethernet. When a device needs to transmit data, it listens and waits until the media is available (quiet), then it will send data. If two devices transmit at the same time, a collision will occur. Both devices will detect the collision on the network. When a device detects a collision, it will stop the data transmission process, wait for a random amount of time, then try again."
+  }, {
+    question:
+      ". Which information does the show startup-config command display?",
+      answers: [
+      {
+        text: "the IOS image copied into RAM",
+         correct: true,
+      },
+      {
+        text: "the bootstrap program in the ROM",
+        correct: false,
+      },
+      {
+        text: "the contents of the saved configuration file in the NVRAM",
+         correct: true,
+      },
+      {
+        text: "the contents of the current running configuration file in the RAM",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "The show startup-config command displays the saved configuration located in NVRAM. The show running-config command displays the contents of the currently running configuration file located in RAM.​",
+  }, {
+    question:
+      "Which two commands can be used on a Windows host to display the routing table? (Choose two.)",
+      answers: [
+      {
+        text: "route print",
+        correct: true,
+      },
+      {
+        text: "netstat -r",
+        correct: true,
+      },
+      {
+        text: "show ip route",
+        correct: false,
+      },
+      {
+        text: "netstat -s",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "On a Windows host, the route print or netstat -r commands can be used to display the host routing table. Both commands generate the same output. On a router, the show ip route command is used to display the routing table. The netstat –s command is used to display per-protocol statistics. The tracert command is used to display the path that a packet travels to its destination.",
+  }, {
+    question:
+      "What are two functions that are provided by the network layer? (Choose two.)",
+      answers: [
+      {
+        text: "directing data packets to destination hosts on other networks",
+        correct: true,
+      },
+      {
+        text: "providing end devices with a unique network identifier",
+        correct: true,
+      },
+      {
+        text: "carrying data between processes that are running on source and destination hosts",
+        correct: false,
+      },
+      {
+        text: "placing data on the network medium",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "Which two statements describe features of an IPv4 routing table on a router? (Choose two.)​",
+      answers: [
+      {
+        text: "It stores information about routes derived from the active router interfaces.",
+        correct: true,
+      },
+      {
+        text: "If a default static route is configured in the router, an entry will be included in the routing table with source code S .",
+        correct: true,
+      },
+      {
+        text: "The routing table lists the MAC addresses of each active interface.",
+        correct: false,
+      },
+      {
+        text: "The netstat -r command can be used to display the routing table of a router.​",
+        correct: false,
+      },
+      {
+        text: "If there are two or more possible routes to the same destination, the route associated with the higher metric value is included in the routing table.",
+        correct: false,
+      },
+      {
+        text: "Directly connected interfaces will have two route source codes in the routing table: C and S .",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "What characteristic describes a VPN?",
+      answers: [
+      {
+        text: "a tunneling protocol that provides remote users with secure access into the network of an organization",
+        correct: true,
+      },
+      {
+        text: "software on a router that filters traffic based on IP addresses or applications",
+        correct: false,
+      },
+      {
+        text: "software that identifies fast-spreading threats",
+        correct: false,
+      },
+      {
+        text: "a network device that filters access and traffic coming into a network",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "",
+  }, {
+    question:
+      "Why would a Layer 2 switch need an IP address?",
+      answers: [
+      {
+        text: "to enable the switch to be managed remotely",
+        correct: true,
+      },
+      {
+        text: "to enable the switch to send broadcast frames to attached PCs",
+        correct: false,
+      },
+      {
+        text: "to enable the switch to function as a default gateway",
+        correct: false,
+      },
+      {
+        text: "to enable the switch to receive frames from attached PCs",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "A switch, as a Layer 2 device, does not need an IP address to transmit frames to attached devices. However, when a switch is accessed remotely through the network, it must have a Layer 3 address. The IP address must be applied to a virtual interface rather than to a physical interface. Routers, not switches, function as default gateways.",
+  }, {
+    question:
+      "Match each description to its corresponding term. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/17.jpg?ezimgfmt=rs:665x665/rscb2/ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "A user sends an HTTP request to a web server on a remote network. During encapsulation for this request, what information is added to the address field of a frame to indicate the destination?",
+      answers: [
+      {
+        text: "the MAC address of the default gateway",
+        correct: true,
+      },
+      {
+        text: "the network domain of the destination host",
+        correct: false,
+      },
+      {
+        text: "the IP address of the default gateway",
+        correct: false,
+      },
+      {
+        text: "the MAC address of the destination host",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "A frame is encapsulated with source and destination MAC addresses. The source device will not know the MAC address of the remote host. An ARP request will be sent by the source and will be responded to by the router. The router will respond with the MAC address of its interface, the one which is connected to the same network as the source."
+  }, {
+    question:
+      "What is an advantage to using a protocol that is defined by an open standard?",
+      answers: [
+      {
+        text: "A company can monopolize the market.",
+        correct: false,
+      },
+      {
+        text: "The protocol can only be run on equipment from a specific vendor.",
+        correct: false,
+      },
+      {
+        text: "An open standard protocol is not controlled or regulated by standards organizations.",
+        correct: false,
+      },
+      {
+        text: "It encourages competition and promotes choices.",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "A monopoly by one company is not a good idea from a user point of view. If a protocol can only be run on one brand, it makes it difficult to have mixed equipment in a network. A proprietary protocol is not free to use. An open standard protocol will in general be implemented by a wide range of vendors."
+  }, {
+    question:
+      "Data is being sent from a source PC to a destination server. Which three statements correctly describe the function of TCP or UDP in this situation? (Choose three.)",
+      answers: [
+      {
+        text: "The TCP process running on the PC randomly selects the destination port when establishing a session with the server.",
+        correct: false,
+      },
+      {
+        text: "TCP is the preferred protocol when a function requires lower network overhead.",
+        correct: false,
+      },
+      {
+        text: "The TCP source port number identifies the sending host on the network",
+        correct: false,
+      },
+      {
+        text: "The source port field identifies the running application or service that will handle data returning to the PC.",
+        correct: true,
+      },
+      {
+        text: "UDP segments are encapsulated within IP packets for transport across the network.",
+        correct: true,
+      },
+      {
+        text: "The UDP destination port number identifies the application or service on the server which will handle the data.",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "Layer 4 port numbers identify the application or service which will handle the data. The source port number is added by the sending device and will be the destination port number when the requested information is returned. Layer 4 segments are encapsulated within IP packets. UDP, not TCP, is used when low overhead is needed. A source IP address, not a TCP source port number, identifies the sending host on the network. Destination port numbers are specific ports that a server application or service monitors for requests."
+  }, {
+    question:
+      "Match each description with the corresponding TCP mechanism. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/20.jpg?ezimgfmt=rs:655x506/rscb2/ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "Refer to the exhibit. A company uses the address block of 128.107.0.0/16 for its network. What subnet mask would provide the maximum number of equal size subnets while providing enough host addresses for each subnet in the exhibit?",
+      answers: [
+      {
+        text: "255.255.255.128",
+        correct: true,
+      },
+      {
+        text: "255.255.255.192",
+        correct: false,
+      },
+      {
+        text: "255.255.255.240",
+        correct: false,
+      },
+      {
+        text: "255.255.255.0",
+        correct: false,
+      },
+      {
+        text: "255.255.255.224",
+        correct: false,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/i207609v1n1_207609.png?ezimgfmt=rs:571x419/rscb2/ng:webp/ngcb2",
+    explanation: "The largest subnet in the topology has 100 hosts in it so the subnet mask must have at least 7 host bits in it (27-2=126). 255.255.255.0 has 8 hosts bits, but this does not meet the requirement of providing the maximum number of subnets."
+  }, {
+    question:
+      "A network administrator wants to have the same subnet mask for three subnetworks at a small site. The site has the following networks and numbers of devices: Subnetwork A: IP phones – 10 addresses, Subnetwork B: PCs – 8 addresses, Subnetwork C: Printers – 2 addresses. What single subnet mask would be appropriate to use for the three subnetworks?",
+      answers: [
+      {
+        text: "255.255.255.252",
+        correct: false,
+      },
+      {
+        text: "255.255.255.248",
+        correct: false,
+      },
+      {
+        text: "255.255.255.0",
+        correct: false,
+      },
+      {
+        text: "255.255.255.240",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "If the same mask is to be used, then the network with the most hosts must be examined for number of hosts. Because this is 10 hosts, 4 host bits are needed. The /28 or 255.255.255.240 subnet mask would be appropriate to use for these networks. ​",
+  }, {
+    question:
+      "Match each item to the type of topology diagram on which it is typically identified. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/24.jpg?ezimgfmt=rs:655x293/rscb2/ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "What two pieces of information are displayed in the output of the show ip interface brief command? (Choose two.)",
+      answers: [
+      {
+        text: "speed and duplex settings",
+        correct: false,
+      },
+      {
+        text: "next-hop addresses",
+        correct: false,
+      },
+      {
+        text: "interface descriptions",
+        correct: false,
+      },
+      {
+        text: "IP addresses",
+        correct: true,
+      },
+      {
+        text: "Layer 1 statuses",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "The command show ip interface brief shows the IP address of each interface, as well as the operational status of the interfaces at both Layer 1 and Layer 2. In order to see interface descriptions and speed and duplex settings, use the command show running-config interface. Next-hop addresses are displayed in the routing table with the command show ip route, and the MAC address of an interface can be seen with the command show interfaces.",
+  }, {
+    question:
+      "A user is complaining that an external web page is taking longer than normal to load.The web page does eventually load on the user machine. Which tool should the technician use with administrator privileges in order to locate where the issue is in the network?",
+      answers: [
+      {
+        text: "ping",
+        correct: false,
+      },
+      {
+        text: "nslookup",
+        correct: false,
+      },
+      {
+        text: "ipconfig /displaydns",
+        correct: false,
+      },
+      {
+        text: "tracert",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Which value, that is contained in an IPv4 header field, is decremented by each router that receives a packet?",
+      answers: [
+      {
+        text: "Header Length",
+        correct: false,
+      },
+      {
+        text: "Differentiated Services",
+        correct: false,
+      },
+      {
+        text: "Fragment Offset",
+        correct: false,
+      },
+      {
+        text: "Time-to-Live",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: "When a router receives a packet, the router will decrement the Time-to-Live (TTL) field by one. When the field reaches zero, the receiving router will discard the packet and will send an ICMP Time Exceeded message to the sender."
+  }, {
+    question:
+      "A network technician is researching the use of fiber optic cabling in a new technology center. Which two issues should be considered before implementing fiber optic media? (Choose two.)",
+      answers: [
+      {
+        text: "Fiber optic cabling requires different termination and splicing expertise from what copper cabling requires.",
+        correct: true,
+      },
+      {
+        text: "Fiber optic cabling requires specific grounding to be immune to EMI.",
+        correct: false,
+      },
+      {
+        text: "ipconfig /displaydnsFiber optic cabling is susceptible to loss of signal due to RFI.",
+        correct: false,
+      },
+      {
+        text: "Fiber optic provides higher data capacity but is more expensive than copper cabling.",
+        correct: true,
+      },
+    ],
+    photograph: "",
+    explanation: ""
+  }, {
+    question:
+      "Match each description with an appropriate IP address. (Not all options are used.)",
+      answers: [
+      {
+        text: "bafta",
+        correct: true,
+      },
+    ],
+    photograph: "https://itexamanswers.net/wp-content/uploads/2020/01/2021-11-13_111242.jpg?ezimgfmt=ng:webp/ngcb2",
+    explanation: ""
+  }, {
+    question:
+      "A user is executing a tracert to a remote device. At what point would a router, which is in the path to the destination device, stop forwarding the packet?",
+      answers: [
+      {
+        text: "when the value in the TTL field reaches zero",
+        correct: true,
+      },
+      {
+        text: "when the router receives an ICMP Time Exceeded message",
+        correct: false,
+      },
+      {
+        text: "when the RTT value reaches zero",
+        correct: false,
+      },
+      {
+        text: "when the values of both the Echo Request and Echo Reply messages reach zero",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "When a router receives a traceroute packet, the value in the TTL field is decremented by 1. When the value in the field reaches zero, the receiving router will not forward the packet, and will send an ICMP Time Exceeded message back to the source."
+  }, {
+    question:
+      "Users report that the network access is slow. After questioning the employees, the network administrator learned that one employee downloaded a third-party scanning program for the printer. What type of malware might be introduced that causes slow performance of the network?",
+      answers: [
+      {
+        text: "worm",
+        correct: true,
+      },
+      {
+        text: "virus",
+        correct: false,
+      },
+      {
+        text: "phishing",
+        correct: false,
+      },
+      {
+        text: "spam",
+        correct: false,
+      },
+    ],
+    photograph: "",
+    explanation: "A cybersecurity specialist needs to be familiar with the characteristics of the different types of malware and attacks that threaten an organization.",
+  }
+  
 ];
